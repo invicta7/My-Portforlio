@@ -61,10 +61,10 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex min-h-screen, w-full flex-col items-center justify-center gap-16, p-4 md:px-14 py-24"
+      className="flex min-h-screen, w-full flex-col items-center justify-center gap-16, p-4 md:px-14 py-14"
     >
       <ScrollReveal>
-        <h1 className="text-4xl font-light text-white md:text-6xl py-24">
+        <h1 className="text-4xl font-light text-white md:text-6xl py-10">
           My Projects
         </h1>
       </ScrollReveal>
