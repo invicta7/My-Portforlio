@@ -1,4 +1,5 @@
 import image1 from "/public/movie.png";
+import grocery from "/public/grocery.png";
 import { motion } from "framer-motion";
 const ProjectsData = [
   {
@@ -6,8 +7,17 @@ const ProjectsData = [
     title: "Movie-explorer App",
     description:
       "An interactive web platform designed to help users discover, explore, and track movies effortlessly. It features a clean and intuitive interface where users can browse trending films, search by title, genre, or release year, and access detailed information such as plot summaries, cast, trailers, and ratings. The website integrates APIs for real-time movie data, offers personalized watchlists, and supports responsive design for seamless use on any device.",
-    technologies: ["HTML", "Tailwind", "JavaScript"],
+    technologies: ["React", "Tailwind", "JavaScript"],
     link: "https://movie-explorer-project.vercel.app/",
+  },
+
+  {
+    image1: grocery,
+    title: "Grocery Shopping App",
+    description:
+      "The Grocery Cart web application is a full-stack e-commerce platform built with the MERN stack (MongoDB, Express.js, React, Node.js), designed to simplify and enhance the grocery shopping experience. Users can browse, search, and filter products, add them to their shopping cart, and securely proceed to checkout. The app features real-time inventory updates, user authentication, and responsive design for seamless use on mobile and desktop devices. The backend leverages RESTful APIs and MongoDB for efficient data handling, while the frontend is powered by React with modern UI components for an intuitive and engaging user experience. This application demonstrates scalable architecture, optimized state management, and secure payment integration, making it ideal for both personal projects and commercial deployment. This is still a work in progress though as full features of the site are currently being added",
+    technologies: ["MongoDB", "Express js", "React", "Node js"],
+    link: "https://grocery-cart-umber.vercel.app/",
   },
 ];
 
@@ -31,7 +41,7 @@ const ProjectCard = ({ project }) => {
         <img
           src={project.image1}
           alt=""
-          className="w-full crsor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]"
+          className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]"
         />
 
         <div className="flex flex-col gap-5">

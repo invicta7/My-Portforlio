@@ -33,8 +33,8 @@ const Hero = () => {
           </h3>
           <p className="md:text-base text-pretty text-sm text-gray-400">
             I’m a passionate and detail-oriented Web Developer with strong
-            proficiency in front-end technologies like HTML, CSS, Tailwind,
-            JavaScript, and React, as well as experience working with back-end
+            proficiency in front-end technologies like React, Tailwind CSS,
+            JavaScript, TypeScript as well as experience working with back-end
             tools and version control systems like Git. I specialize in building
             responsive, user-friendly websites and web applications, with a
             focus on clean code, performance optimization, and intuitive user
