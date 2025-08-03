@@ -73,7 +73,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex min-h-screen, w-[80%] flex-col items-center justify-center text-justify gap-16, p-4 md:px-14 py-14"
+      className="flex min-h-screen, w-[85%] flex-col items-center justify-start gap-16, p-0 md:px-14 py-14 text-justify"
     >
       <ScrollReveal>
         <h1 className="text-4xl font-light text-white md:text-6xl py-10">
