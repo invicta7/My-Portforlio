@@ -1,4 +1,4 @@
-import Victor from "/public/invicta.jpg";
+import Victor from "/public/Invicta-anime.png";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
           <img
             src={Victor}
             alt=""
-            className="w-[300px] cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[350px]"
+            className="w-[300px] h-[300px] cursor-pointer rounded-full shadow-xl shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-600 md:w-[350px]"
           />
         </motion.div>
         <motion.div
