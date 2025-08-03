@@ -81,7 +81,7 @@ const Projects = () => {
         </h1>
       </ScrollReveal>
 
-      <div className="flex w-full max-w-[90%] flex-col gap-16 text-white">
+      <div className="flex w-[90%] max-w-[1000px] flex-col gap-16 text-white">
         {ProjectsData.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
