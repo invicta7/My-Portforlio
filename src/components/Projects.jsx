@@ -15,7 +15,7 @@ const ProjectsData = [
     image1: grocery,
     title: "Grocery Shopping App",
     description:
-      "The Grocery Cart web application is a full-stack e-commerce platform built with the MERN stack (MongoDB, Express.js, React, Node.js), designed to simplify and enhance the grocery shopping experience. Users can browse, search, and filter products, add them to their shopping cart, and securely proceed to checkout. The app features real-time inventory updates, user authentication, and responsive design for seamless use on mobile and desktop devices. The backend leverages RESTful APIs and MongoDB for efficient data handling, while the frontend is powered by React with modern UI components for an intuitive and engaging user experience. This application demonstrates scalable architecture, optimized state management, and secure payment integration, making it ideal for both personal projects and commercial deployment. This is still a work in progress though as full features of the site are currently being added",
+      "The Grocery Cart web app is a MERN stack e-commerce platform for grocery shopping. It allows users to browse, search, filter products, add items to a cart, and securely check out. Features include real-time inventory, user authentication, responsive design, and RESTful APIs with MongoDB for data handling. The React frontend uses modern UI components and optimized state management. It supports secure payment integration and scalable architecture, though it is still in development with more features being added.",
     technologies: ["MongoDB", "Express js", "React", "Node js"],
     link: "https://grocery-cart-umber.vercel.app/",
   },
@@ -47,7 +47,7 @@ const ProjectCard = ({ project }) => {
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-3">
             <div className="text-xl font-semibold">{project.title}</div>
-            <p className="text-gray-400">{project.description}</p>
+            <p className="text-white">{project.description}</p>
           </div>
           <div className="flex flex-wrap gap-5">
             {project.technologies.map((tech, index) => (
@@ -58,7 +58,9 @@ const ProjectCard = ({ project }) => {
           </div>
           <div>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
-              View Project
+              <button className="p-4 border border-black bg-gradient-to-r from-blue-500 to-pink-500 rounded-md">
+                View Project
+              </button>
             </a>
           </div>
         </div>
@@ -71,7 +73,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex min-h-screen, w-full flex-col items-center justify-center gap-16, p-4 md:px-14 py-14"
+      className="flex min-h-screen, w-[80%] flex-col items-center justify-center text-justify gap-16, p-4 md:px-14 py-14"
     >
       <ScrollReveal>
         <h1 className="text-4xl font-light text-white md:text-6xl py-10">
