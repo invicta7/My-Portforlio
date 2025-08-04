@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 z-10 flex w-full items-center justify-between mx-auto border-b border-b-gray-700 bg-black/70 p-0 text-white backdrop-blur-md md:justify-evenly px-10">
+    <nav className="fixed top-0 z-10 flex w-full items-center justify-between mx-auto border-b border-b-gray-700 bg-black/70 p-0 text-white backdrop-blur-md md:justify-evenly px-4">
       <a
         href="#home"
         className="bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent opacity-80 text-lg font-semibold transition-all duration-300 hover:opacity-100"
