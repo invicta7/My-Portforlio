@@ -73,7 +73,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex min-h-screen, w-full flex-col items-center justify-start gap-16, p-0 mx-auto md:px-14 py-14 text-justify"
+      className="flex min-h-screen, w-full flex-col items-center justify-start gap-16, p-12 mx-auto md:px-14 py-14 text-justify"
     >
       <ScrollReveal>
         <h1 className="text-4xl font-light text-white md:text-6xl py-10">
@@ -81,7 +81,7 @@ const Projects = () => {
         </h1>
       </ScrollReveal>
 
-      <div className="flex w-full  max-w-[1000px] flex-col gap-16 text-white md:px-14">
+      <div className="flex w-full  max-w-[1000px] flex-col gap-16 text-white mx-auto md:px-10">
         {ProjectsData.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
